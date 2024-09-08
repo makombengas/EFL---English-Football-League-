@@ -33,7 +33,7 @@ Hier ist ein Beispiel, wie die EFL-Anwendung aussieht:
 
 1. Klonen Sie das Repository:
    ```
-   git clone https://github.com/makombengas/efl-learning-project.git
+   git clone https://github.com/makombengas/efl---learning-project.git
    ```
 
 2. Wechseln Sie in das Projektverzeichnis:
