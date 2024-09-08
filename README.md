@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EFL - English Football League Showcase (Lernprojekt)
 
-## Getting Started
+## Haftungsausschluss
 
-First, run the development server:
+**Wichtiger Hinweis**: Diese Website ist ein reines Lernprojekt und hat keine offizielle Verbindung zur English Football League (EFL). Alle verwendeten Daten und Informationen stammen aus öffentlich zugänglichen Quellen. Ich besitze keinerlei Rechte an den EFL-Daten oder -Marken. Dieses Projekt dient ausschließlich Bildungszwecken und der Demonstration von Web-Entwicklungsfähigkeiten.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Projektübersicht
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+EFL ist eine web-basierte Anwendung, entwickelt mit Next.js, die Daten über die English Football League von der thesportsdb.com API abruft und präsentiert. Die Benutzeroberfläche bietet einen interaktiven Slider-Karussell, implementiert mit Swiper, um Fußballdaten ansprechend darzustellen. Dieses Projekt wurde erstellt, um Next.js, API-Integration und moderne Frontend-Techniken zu erlernen und zu üben.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Beispiel
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Hier ist ein Beispiel, wie die EFL-Anwendung aussieht:
 
-## Learn More
+![EFL Anwendungsbeispiel](public/images/beispiel.png)
 
-To learn more about Next.js, take a look at the following resources:
+*Dieses Bild zeigt den Hauptbildschirm der EFL-Anwendung mit dem Swiper-Karussell, das verschiedene Teams der English Football League präsentiert.*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Funktionen
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Abruf und Anzeige von Daten über die English Football League (zu Lernzwecken)
+- Interaktiver Slider-Karussell zur Präsentation von Teams, Spielern oder Ligainformationen
+- Responsive Design für optimale Darstellung auf verschiedenen Geräten
 
-## Deploy on Vercel
+## Technologie-Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js](https://nextjs.org/) - React Framework für serverseitiges Rendering und statische Websites
+- [React](https://reactjs.org/) - JavaScript-Bibliothek für Benutzeroberflächen
+- [Swiper](https://swiperjs.com/) - Moderner Mobile Touch Slider
+- [thesportsdb.com API](https://www.thesportsdb.com/api.php) - Umfassende Sportdaten-API
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Installation
+
+1. Klonen Sie das Repository:
+   ```
+   git clone https://github.com/makombengas/efl---learning-project.git
+   ```
+
+2. Wechseln Sie in das Projektverzeichnis:
+   ```
+   cd efl-learning-project
+   ```
+
+3. Installieren Sie die Abhängigkeiten:
+   ```
+   npm install
+   ```
+
+4. Erstellen Sie eine `.env.local` Datei im Wurzelverzeichnis und fügen Sie Ihren API-Schlüssel hinzu:
+   ```
+   NEXT_PUBLIC_SPORTSDB_API_KEY=IhrAPISchlüssel
+   ```
+
+## Verwendung
+
+1. Starten Sie den Entwicklungsserver:
+   ```
+   npm run dev
+   ```
+
+2. Öffnen Sie Ihren Browser und navigieren Sie zu `http://localhost:3000`
+
+
+
+## Swiper-Konfiguration
+
+Der Slider-Karussell wurde mit Swiper implementiert. Die Hauptkonfiguration finden Sie in der Datei `components/TeamsBanner.js`.
+
+## Beitragen
+
+Da dies ein persönliches Lernprojekt ist, werden keine aktiven Beiträge gesucht. Jedoch sind Vorschläge und Feedback zur Verbesserung des Codes oder der Struktur willkommen.
+
+## Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert, siehe `LICENSE` Datei für Details. Bitte beachten Sie, dass sich dies nur auf den Code bezieht, nicht auf die verwendeten Daten oder Marken der EFL.
+
+## Kontakt
+
+Bei Fragen oder Anregungen zum Lernprojekt können Sie ein Issue auf GitHub erstellen.
+
+## Danksagung
+
+Besonderer Dank gilt thesportsdb.com für die Bereitstellung der API, die dieses Lernprojekt ermöglicht hat, sowie der English Football League für die Inspiration.
