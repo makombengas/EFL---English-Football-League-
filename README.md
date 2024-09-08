@@ -33,12 +33,12 @@ Hier ist ein Beispiel, wie die EFL-Anwendung aussieht:
 
 1. Klonen Sie das Repository:
    ```
-   git clone https://github.com/makombengas/efl---learning-project.git
+   git clone https://github.com/makombengas/EFL---English-Football-League-
    ```
 
 2. Wechseln Sie in das Projektverzeichnis:
    ```
-   cd efl-learning-project
+   cd EFL---English-Football-League-
    ```
 
 3. Installieren Sie die Abhängigkeiten:
